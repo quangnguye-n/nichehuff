@@ -3,6 +3,7 @@
   "private": true,
   "packageManager": "pnpm@12.11.2",
   "scripts": {
-    "typecheck": "pnpm --filter @huff/shared typecheck"
+    "dev:api": "corepack pnpm --filter @huff/api dev",
+    "typecheck": "corepack pnpm -r typecheck"
   }
 }
