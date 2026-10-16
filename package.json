@@ -4,6 +4,7 @@
   "packageManager": "pnpm@12.11.2",
   "scripts": {
     "dev:api": "corepack pnpm --filter @huff/api dev",
+    "dev:mobile": "corepack pnpm --filter @huff/mobile dev",
     "typecheck": "corepack pnpm -r typecheck"
   }
 }
